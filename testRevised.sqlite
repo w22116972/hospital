@@ -1,0 +1,142 @@
+DROP TABLE IF EXISTS "appstatus";
+CREATE TABLE "appstatus" ("id" INTEGER PRIMARY KEY  NOT NULL , "color" INTEGER, "waitNum" INTEGER, "bed" TEXT);
+INSERT INTO "appstatus" VALUES(1,0,0,'0.521008403361345');
+INSERT INTO "appstatus" VALUES(2,0,0,'-1');
+INSERT INTO "appstatus" VALUES(5,0,0,'-1');
+INSERT INTO "appstatus" VALUES(6,0,0,'0.28');
+INSERT INTO "appstatus" VALUES(7,0,0,'-1');
+INSERT INTO "appstatus" VALUES(8,0,1,'0');
+INSERT INTO "appstatus" VALUES(9,0,0,'-1');
+INSERT INTO "appstatus" VALUES(10,0,0,'-1');
+INSERT INTO "appstatus" VALUES(11,0,0,'1.20588235294118');
+INSERT INTO "appstatus" VALUES(12,0,0,'0.8');
+INSERT INTO "appstatus" VALUES(13,0,3,'1.05');
+INSERT INTO "appstatus" VALUES(14,0,0,'1.33333333333333');
+INSERT INTO "appstatus" VALUES(15,0,1,'0');
+INSERT INTO "appstatus" VALUES(16,0,1,'0.2');
+INSERT INTO "appstatus" VALUES(17,0,1,'0.1');
+INSERT INTO "appstatus" VALUES(18,0,0,'0');
+INSERT INTO "appstatus" VALUES(19,0,0,'0.8');
+INSERT INTO "appstatus" VALUES(20,0,0,'1');
+INSERT INTO "appstatus" VALUES(21,0,0,'-1');
+INSERT INTO "appstatus" VALUES(22,0,0,'0.481481481481481');
+INSERT INTO "appstatus" VALUES(24,0,2,'0');
+INSERT INTO "appstatus" VALUES(25,0,0,'10.9');
+INSERT INTO "appstatus" VALUES(26,0,0,'0');
+INSERT INTO "appstatus" VALUES(27,0,0,'0');
+INSERT INTO "appstatus" VALUES(28,0,0,'0');
+INSERT INTO "appstatus" VALUES(29,0,6,'0');
+INSERT INTO "appstatus" VALUES(30,0,0,'0');
+INSERT INTO "appstatus" VALUES(31,0,0,'0');
+INSERT INTO "appstatus" VALUES(32,0,0,'0.0833333333333333');
+INSERT INTO "appstatus" VALUES(33,0,0,'0.625');
+INSERT INTO "appstatus" VALUES(34,0,0,'0.916666666666667');
+INSERT INTO "appstatus" VALUES(35,0,0,'0.735294117647059');
+INSERT INTO "appstatus" VALUES(36,0,0,'0.166666666666667');
+INSERT INTO "appstatus" VALUES(37,0,1,'0.2');
+INSERT INTO "appstatus" VALUES(38,0,0,'0');
+INSERT INTO "appstatus" VALUES(39,0,2,'0.1');
+INSERT INTO "appstatus" VALUES(40,0,1,'0.8');
+INSERT INTO "appstatus" VALUES(41,0,1,'0');
+INSERT INTO "appstatus" VALUES(42,0,0,'0.4');
+INSERT INTO "appstatus" VALUES(43,0,0,'0');
+INSERT INTO "appstatus" VALUES(44,0,11,'4.1');
+INSERT INTO "appstatus" VALUES(45,0,0,'0');
+INSERT INTO "appstatus" VALUES(46,0,0,'0');
+INSERT INTO "appstatus" VALUES(47,0,0,'0');
+INSERT INTO "appstatus" VALUES(48,0,-3,'0');
+INSERT INTO "appstatus" VALUES(49,0,-3,'0');
+INSERT INTO "appstatus" VALUES(50,0,-3,'0');
+INSERT INTO "appstatus" VALUES(51,0,-3,'0');
+DROP TABLE IF EXISTS "appusers";
+CREATE TABLE "appusers" ("hospital_PK" INTEGER PRIMARY KEY  NOT NULL , "hospital_name" TEXT NOT NULL , "hospital_level" INTEGER, "PhoneNumber" TEXT, "hospital_address" TEXT);
+INSERT INTO "appusers" VALUES(1,'高雄醫學大學附設中和紀念醫院',1,'(07)753-3967','高雄市三民區自由一路100號');
+INSERT INTO "appusers" VALUES(2,'恆春旅遊醫院 ',2,'(08)753-3968','屏東縣恆春鎮恆南路188號');
+INSERT INTO "appusers" VALUES(5,'旗山醫院',3,'(07)1234567','高雄市旗山區中學路60號');
+INSERT INTO "appusers" VALUES(6,'東港安泰醫院',2,'(08)832-9966
+#1399
+','屏東縣東港鎮中正路一段210號');
+INSERT INTO "appusers" VALUES(7,'琉球鄉衛生所',0,'(07)1234567','屏東縣琉球鄉中山路51號');
+INSERT INTO "appusers" VALUES(8,'枋寮醫院
+',3,'(07)1234567','屏東縣枋寮鄉中山路139號');
+INSERT INTO "appusers" VALUES(9,'輔英科大附設醫院',3,'(07)1234567','屏東縣東港鎮中山路5號');
+INSERT INTO "appusers" VALUES(10,'消防局
+',0,'(07)1234567','高雄市三民區自由一路100號');
+INSERT INTO "appusers" VALUES(11,'阮綜合醫院
+',2,'(07)335-1121#2201','高雄市苓雅區成功一路162號');
+INSERT INTO "appusers" VALUES(12,'國軍高雄總醫院(802)
+',3,'(07)749-6591','高雄市苓雅區建軍路5號');
+INSERT INTO "appusers" VALUES(13,'高雄大同醫院
+',2,'(07)1234567','高雄市前金區中華三路68號');
+INSERT INTO "appusers" VALUES(14,'高雄市立小港醫院',3,'(07)803-6783#3119','高雄市小港區山明路482號');
+INSERT INTO "appusers" VALUES(15,'劉光雄醫院
+',3,'(07)621-91565#111','高雄市岡山區岡山路380之1號');
+INSERT INTO "appusers" VALUES(16,'屏東基督教醫院
+',2,'(08)736-8686#5111','屏東市大連路60號');
+INSERT INTO "appusers" VALUES(17,'寶建醫院
+',2,'(08)766-5995#1391
+','屏東縣屏東市中山路123號');
+INSERT INTO "appusers" VALUES(18,'健仁醫院
+',3,'(07)351-7166#1119、#1118','高雄市楠梓區楠陽路136號');
+INSERT INTO "appusers" VALUES(19,'高雄市立岡山醫院
+',3,'(07)622-2131#51181
+','高雄市岡山區壽天路12號');
+INSERT INTO "appusers" VALUES(20,'潮州安泰醫院
+',3,'(08)780-0888#119','屏東縣潮州鎮四維路162號');
+INSERT INTO "appusers" VALUES(21,'國軍高雄總醫院屏東分院',3,'---','屏東縣屏東市大湖路58巷22號');
+INSERT INTO "appusers" VALUES(22,'高雄榮民總醫院
+',1,'(07)342-2121#7011','高雄市左營區大中一路386號');
+INSERT INTO "appusers" VALUES(24,'旗津醫院
+',3,'---','高雄市旗津區廟前路1之1號');
+INSERT INTO "appusers" VALUES(25,'義大醫院
+',1,'(07)5837372','高雄市燕巢區義大路1號');
+INSERT INTO "appusers" VALUES(26,'恆春基督教醫院
+',3,'---','屏東縣恆春鎮恆西路21號');
+INSERT INTO "appusers" VALUES(27,'霖園醫院
+',0,'(07)641-3399','高雄市林園區林園北路244號');
+INSERT INTO "appusers" VALUES(28,'高新醫院
+',0,'---','高雄市路竹區中山路627號');
+INSERT INTO "appusers" VALUES(29,'大東醫院
+',3,'(07)746-3762#102','高雄市鳳山區光遠路171之2號');
+INSERT INTO "appusers" VALUES(30,'小港安泰醫院
+',3,'---','高雄市小港區沿海一路219號');
+INSERT INTO "appusers" VALUES(31,'佳欣婦幼醫院
+',0,'(07)331-2233','高雄市前鎮區三多三路149號');
+INSERT INTO "appusers" VALUES(32,'國軍屏東分院(815)',3,'---','屏東市大湖路58巷22號');
+INSERT INTO "appusers" VALUES(33,'國軍左營總醫院(806)
+',3,'0975-900-137','左營區軍校路553號');
+INSERT INTO "appusers" VALUES(34,'國軍岡山醫院(814)
+',3,'0977-235-719
+(僅供急性腦中風)','高雄市岡山區大義二路1號');
+INSERT INTO "appusers" VALUES(35,'高雄長庚醫院
+',1,'0975-957-957','高雄市鳥松區大埤路123號');
+INSERT INTO "appusers" VALUES(36,'鳳山醫院
+',3,'(07)741-8151#3311','高雄市鳳山區經武路42號');
+INSERT INTO "appusers" VALUES(37,'建佑醫院
+',3,'(07)643-6119','高雄市林園區東林西路360號');
+INSERT INTO "appusers" VALUES(38,'國仁醫院
+',3,'(08)722-3000#118','屏東縣屏東市民生東路12之2號');
+INSERT INTO "appusers" VALUES(39,'高雄榮總屏東分院
+',3,'(08)770-4115#319
+','屏東縣內埔鄉龍潭村昭勝路安平1巷1號');
+INSERT INTO "appusers" VALUES(40,'輔英醫院',3,'(07)9999999','屏東縣東港鎮中山路5號');
+INSERT INTO "appusers" VALUES(41,'慈惠醫院
+',0,'(07)703-0315#3143','高雄市大寮區鳳屏一路509號');
+INSERT INTO "appusers" VALUES(42,'南門醫院
+',3,'(08)889-4868#17
+','屏東縣恆春鎮南門路10號');
+INSERT INTO "appusers" VALUES(43,'高雄市立聯合醫院
+',3,'(07)9999999','高雄市鼓山區中華一路976號');
+INSERT INTO "appusers" VALUES(44,'屏東醫院
+',3,'(07)9999999','屏東縣屏東市自由路270號');
+INSERT INTO "appusers" VALUES(45,'優生婦產科
+',0,'(07)9999999','高雄市鳳山區自由路189號');
+INSERT INTO "appusers" VALUES(46,'凱旋醫院',0,'(07)9999999','未知');
+INSERT INTO "appusers" VALUES(47,'天主教聖功醫院',3,'(07)223-8153＃2162
+
+(僅支援急性腦中風與嚴重敗血症)','高雄市苓雅區建國一路352號');
+INSERT INTO "appusers" VALUES(48,'小康醫院',0,'(07)9999999','未知');
+INSERT INTO "appusers" VALUES(49,'杏和醫院',0,'(07)9999999','未知');
+INSERT INTO "appusers" VALUES(50,'瑞生醫院',0,'(07)9999999','未知');
+INSERT INTO "appusers" VALUES(51,'同慶醫院',0,'(07)9999999','未知');
+INSERT INTO "appusers" VALUES(52,'三聖醫院',0,'(07)9999999','未知');
